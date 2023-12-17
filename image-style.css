@@ -1,0 +1,10 @@
+div {
+    position: relative;
+}
+
+img.centerimage {
+    display: block;
+    margin: auto;
+    width: 50%;
+    max-width: 300px;
+}
