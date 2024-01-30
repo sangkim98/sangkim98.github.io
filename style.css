@@ -2,6 +2,7 @@
     font-family: NanumSquare;
     src: url('fonts/NanumSquareOTF_acR.otf');
 }
+
 @font-face {
     font-family: NanumSquare;
     font-weight: bold;
@@ -9,19 +10,34 @@
 }
 
 .profile-container {
-    display: flex; /* Enables flexbox */
-    align-items: center; /* Vertically center the items */
-    justify-content: space-around; /* Evenly space out the items */
+    display: flex;
+    /* Enables flexbox */
+    align-items: center;
+    /* Vertically center the items */
+    justify-content: space-around;
+    /* Evenly space out the items */
 }
+
 .image-container {
-    width: auto; /* Set the width of the container (can be adjusted) */
-    height:35%; /* Adjust height as needed */
-    overflow: hidden; /* Optional: to hide parts of the image if it overflows */
+    width: 30%;
+    /* Set the width of the container (can be adjusted) */
+    height: 35%;
+    /* Adjust height as needed */
+    overflow: hidden;
+    /* Optional: to hide parts of the image if it overflows */
     text-align: right;
 }
+
+.introduction-container {
+    width: 70%;
+}
+
 .image-container img {
-    width: auto; /* Make the image fill the container's width */
+    width: auto;
+    /* Make the image fill the container's width */
     max-width: 250px;
-    height: auto; /* Keep the image's aspect ratio */
-    object-fit: cover; /* Ensures the image covers the container */
+    height: auto;
+    /* Keep the image's aspect ratio */
+    object-fit: cover;
+    /* Ensures the image covers the container */
 }

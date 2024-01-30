@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <title>Sanghyeon Kim</title>
 </head>
@@ -8,11 +10,21 @@
 <body style="background-color: rgba(102, 128, 176, 0.927); font-family: NanumSquare;">
     <h1>About me</h1>
     <address>
-        <p><a href="mailto:notingcode@gmail.com">notingcode@gmail.com</a></p>
+        <p>
+            <a href="mailto:notingcode@gmail.com">
+                <img src="images/gmail-icon(2020).svg" alt="gmail address" width="50"/>
+            </a>
+            <a href="https://github.com/notingcode">
+                <img src="images/github-mark.svg" alt="github link" width="50px"/>
+            </a>
+        </p>
     </address>
     <div class="profile-container">
-        <div>
-            <p>My name is Sanghyeon Kim.</p>
+        <div class="introduction-container">
+            <p>
+                My name is Sanghyeon Kim. My most recent interest is in NeRF and Gaussian splatting.
+                I'm also looking into how language models can be incorporated into 3D scenes using Gaussian splats.
+            </p>
         </div>
         <div class="image-container">
             <img src="images/me.jpg" alt="Picture of me">
@@ -36,9 +48,11 @@
     <ul>
         <li>Computer Vision</li>
         <li>Computer Graphics</li>
+        <ul>
+            <li>3D Reconstruction of Scenes and Objects (NeRF, Gaussian Splatting)</li>
+        </ul>
         <li>Deep Generative Models (Diffusion)</li>
-        <li>3D Reconstruction of Scenes and Objects (NeRF, Gaussian Splatting)</li>
-        <li>Few-Shot Learning</li>
+        <li>Multi-modal Learning
     </ul>
 
     <hr />
@@ -55,4 +69,5 @@
     </ul>
     <hr />
 </body>
+
 </html>
