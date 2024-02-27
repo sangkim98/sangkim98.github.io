@@ -46,3 +46,10 @@
     text-decoration: none;
     color: inherit;
 }
+
+.body-template {
+    background-color: #242424;
+    font-family: 'NanumSquare';
+    color: #e2e2e2;
+    font-size: 15pt;
+}
